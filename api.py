@@ -47,11 +47,12 @@ A nosotros también, por eso desarrollamos esta API con recetas de comidas basad
 app = FastAPI(
     title="Food App",
     description=description,
-    version="0.1.1",
+    # Version X.Y.Z -> X= Versión mayor, versión principal | Y= Versión menor, nuevas funcionalidades | Z= Revisión por fallos y detalles
+    version="0.1.2",
     contact={
         "name": "lucasdev & cosoycosas",
-        "url": "https://bio.link/lucasdev",
-        "email": "food-app@telegmail.com",
+        "url": "https://bio.link/devycoso",
+        "email": "devycoso@gmail.com",
     },
     openapi_tags=tags_metadata,
     docs_url=None,
