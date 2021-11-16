@@ -44,6 +44,11 @@ class Item(BaseModel):
     ingredients: List
 
 
+@app.get("/")
+def home_view():
+    return food
+
+
 @app.get("/foods-id/{item_id}", tags=["Foods"])
 def get_food_id(item_id: int = Path(None, description="The ID of the item u like to see :)", gt=-1, lt=len(food))):
     return food[item_id]
