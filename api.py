@@ -5,26 +5,43 @@ from recipes import *
 
 tags_metadata = [
     {
-        "name": "Foods",
-        "description": "Here u can obtain the complete foods using the ID or the Name",
+        "name": "Foods | Comidas",
+        "description": "Here u can obtain the complete foods using the ID or the Name | Con este metodo podes obtener las recetas usando el ID o el nombre de la comida",
     },
     {
-        "name": "Ingredients",
-        "description": "Obtain all the foods you can do with the ingredient"
+        "name": "Ingredients | Ingredientes",
+        "description": "Obtain all the foods you can do with the ingredient | Con este metodo podes obtener todas las comidas que podes hacer con determinado ingrediente"
     },
     {
-        "name": "Recipes",
-        "description": "Obtain all the recipes available in the API"
+        "name": "Recipes | Recetas",
+        "description": "Obtain all the recipes available in the API | Con este metodo podes ver todas las recetas disponibles en la API"
     }
 ]
 
 description = """
-🍽 Food API for the food bot and console app 🍅
+## 🍽 Food API for the food_bot and console app 🍅
 
-## Foods
+### What can I cook with what I have?
 
-You can know **what to cook**.
+The food bot and the food console app know's the answer ;)
 
+It happened to you from finding yourself in the situation where you have things to cook, but you don't know what you can do with what you have?
+
+To us too, that's why we developed this API with plant-based food recipes, together with the telegram bot [@plant_base_food_bot](t.me/plant_base_food_bot) and with the app to run on the console: food app console that can be found on GitHub
+
+### Recipes made by [@cosoycosas](https://bio.link/cosoycosas)
+
+<:3)~~~~ 
+
+## 🍽 Food API para food_bot y la app de consola 🍅
+
+### Que puedo cocinar con lo que tengo?
+
+¿Te paso de encontrarte en la situación donde tenes cosas para cocinar, pero no sabes que podes hacer con lo que tenes?
+
+A nosotros también, por eso desarrollamos esta API con recetas de comidas basadas en plantas, junto con el bot de telegram [@plant_base_food_bot](t.me/plant_base_food_bot) y con la app para correr en consola: food app console que se puede encontrar en el GitHub
+
+### Recetas hechas por [@cosoycosas](https://bio.link/cosoycosas)
 """
 
 app = FastAPI(
@@ -32,7 +49,7 @@ app = FastAPI(
     description=description,
     version="0.1.1",
     contact={
-        "name": "lucasdev",
+        "name": "lucasdev & cosoycosas",
         "url": "https://bio.link/lucasdev",
         "email": "food-app@telegmail.com",
     },
