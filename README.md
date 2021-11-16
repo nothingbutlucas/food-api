@@ -8,4 +8,4 @@ https://vegan-food-api.herokuapp.com
 
 # Comentarios y sugerencias
 
-food-app@telegmail.com
+devycoso@gmail.com
