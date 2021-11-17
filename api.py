@@ -45,10 +45,10 @@ A nosotros también, por eso desarrollamos esta API con recetas de comidas basad
 """
 
 app = FastAPI(
-    title="Food App",
+    title="Food API",
     description=description,
     # Version X.Y.Z -> X= Versión mayor, versión principal | Y= Versión menor, nuevas funcionalidades | Z= Revisión por fallos y detalles
-    version="0.1.2",
+    version="0.1.3",
     contact={
         "name": "lucasdev & cosoycosas",
         "url": "https://bio.link/devycoso",
