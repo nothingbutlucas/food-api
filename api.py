@@ -27,9 +27,10 @@ The food bot and the food console app know's the answer ;)
 
 It happened to you from finding yourself in the situation where you have things to cook, but you don't know what you can do with what you have?
 
-To us too, that's why we developed this API with plant-based food recipes, together with the telegram bot [@plant_base_food_bot](t.me/plant_base_food_bot) and with the app to run on the console: food app console that can be found on GitHub
+To us too, that's why we developed this API with plant-based food recipes, together with the telegram bot [@plant_base_food_bot](t.me/plant_base_food_bot) and with the app to run on the console: food app console that can be found on [GitHub](https://github.com/lucaslucasprogram/food) of [@lucasdev](https://bio.link/lucasdev)
 
-### Recipes made by [@cosoycosas](https://bio.link/cosoycosas)
+
+### Recipes made by [@cosoycosas](https://bio.link/cosoycosas) developed by [@lucasdev](https://bio.link/lucasdev)
 
 <:3)~~~~ 
 
@@ -39,16 +40,16 @@ To us too, that's why we developed this API with plant-based food recipes, toget
 
 ¿Te paso de encontrarte en la situación donde tenes cosas para cocinar, pero no sabes que podes hacer con lo que tenes?
 
-A nosotros también, por eso desarrollamos esta API con recetas de comidas basadas en plantas, junto con el bot de telegram [@plant_base_food_bot](t.me/plant_base_food_bot) y con la app para correr en consola: food app console que se puede encontrar en el GitHub
+A nosotros también, por eso desarrollamos esta API con recetas de comidas basadas en plantas, junto con el bot de telegram [@plant_base_food_bot](t.me/plant_base_food_bot) y con la app para correr en consola: food app console que se puede encontrar en el [GitHub](https://github.com/lucaslucasprogram/food) de [@lucasdev](https://bio.link/lucasdev)
 
-### Recetas hechas por [@cosoycosas](https://bio.link/cosoycosas)
+### Recetas hechas por [@cosoycosas](https://bio.link/cosoycosas) codeado por [@lucasdev](https://bio.link/lucasdev)
 """
 
 app = FastAPI(
     title="Food API",
     description=description,
     # Version X.Y.Z -> X= Versión mayor, versión principal | Y= Versión menor, nuevas funcionalidades | Z= Revisión por fallos y detalles
-    version="0.1.3",
+    version="0.1.4",
     contact={
         "name": "lucasdev & cosoycosas",
         "url": "https://bio.link/devycoso",
