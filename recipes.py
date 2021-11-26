@@ -1,13 +1,44 @@
+'''
+                "es": {
+                    "name": "Sopa-de-arvejas",
+                    "main-ingredients": [
+                      "cebolla",
+                      "arveja"
+                    ],
+                    "secondary-ingredients": [
+                      "papa"
+                    ],
+                    "step-by-step": [
+                      ""
+                    ]
+                },
+                "en": {
+                    "name": "Pea-soup",
+                    "main-ingredients": [
+                      "onion",
+                      "pean"
+                    ],
+                    "secondary-ingredients": [
+                      "potato"
+                    ],
+                    "step-by-step": [
+                      ""
+                    ]
+                }'''
+
 food = {
             0: {
-                "name": "Sopa-de-arvejas",
-                "main-ingredients": [
-                  "cebolla",
-                  "arveja"
-                ],
-                "secondary-ingredients": [
-                  "papa"
-                ]
+                    "name": "Sopa-de-arvejas",
+                    "main-ingredients": [
+                      "cebolla",
+                      "arveja"
+                    ],
+                    "secondary-ingredients": [
+                      "papa"
+                    ],
+                    "step-by-step": [
+                      ""
+                    ]
         },
             1: {
                 "name": "Guiso-de-lentejas",
@@ -20,6 +51,9 @@ food = {
                 "secondary-ingredients": [
                   "zanahoria",
                   "pimiento"
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             2: {
@@ -32,6 +66,9 @@ food = {
                   "choclo",
                   "zanahoria",
                   "puerro"
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             3: {
@@ -46,6 +83,9 @@ food = {
                   "zanahoria",
                   "ajo",
                   "albahaca"
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             4: {
@@ -57,6 +97,9 @@ food = {
                 ],
                 "secondary-ingredients": [
                   "pimiento"
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             5: {
@@ -66,7 +109,10 @@ food = {
                   "calabaza",
                   "pan rallado"
                 ],
-                "secondary-ingredients": []
+                "secondary-ingredients": [],
+                "step-by-step": [
+                  ""
+                ]
         },
             6: {
                 "name": "Milanesas-de-berenjena",
@@ -74,7 +120,10 @@ food = {
                   "berenjena",
                   "pan rallado"
                 ],
-                "secondary-ingredients": []
+                "secondary-ingredients": [],
+                "step-by-step": [
+                  ""
+                ]
         },
             7: {
                 "name": "Empanadas-tipo-fatay",
@@ -90,6 +139,9 @@ food = {
                   "papa",
                   "limon",
                   "agua"
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             8: {
@@ -102,6 +154,9 @@ food = {
                 "secondary-ingredients": [
                   "aceituna",
                   "queso",
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             9: {
@@ -111,7 +166,10 @@ food = {
                   "cebolla",
                   "tapa de tarta"
                 ],
-                "secondary-ingredients": []
+                "secondary-ingredients": [],
+                "step-by-step": [
+                  ""
+                ]
         },
             10: {
                 "name": "Tarta-de-calabaza-y-tofu",
@@ -123,6 +181,9 @@ food = {
                 ],
                 "secondary-ingredients": [
                   "queso",
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             11: {
@@ -133,6 +194,9 @@ food = {
                 ],
                 "secondary-ingredients": [
                   "harina integral",
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             12: {
@@ -146,7 +210,9 @@ food = {
                   "pimenton",
                   "sal",
                   "limon",
-                  "sal"
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             13: {
@@ -156,7 +222,10 @@ food = {
                   "pan rallado",
                   "queso"
                 ],
-                "secondary-ingredients": []
+                "secondary-ingredients": [],
+                "step-by-step": [
+                  ""
+                ]
         },
             14: {
                 "name": "Salsa-de-hongos",
@@ -168,6 +237,9 @@ food = {
                 ],
                 "secondary-ingredients": [
                   "cebolla morada",
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             15: {
@@ -184,7 +256,10 @@ food = {
                   "arandanos",
                   "mani",
                   "cacao",
-            ]
+                ],
+                "step-by-step": [
+                  ""
+                ]
         },
             16: {
                 "name": "Queso-rallado-de-mani",
@@ -198,6 +273,9 @@ food = {
                     "castaña de caju",
                     "ajo en polvo",
                     "pimienta"
+                ],
+                "step-by-step": [
+                  ""
                 ]
         },
             17: {
@@ -209,6 +287,9 @@ food = {
 
                 ],
                 "secondary-ingredients": [
+                ],
+                "step-by-step": [
+                  ""
                 ]
             },
         }
