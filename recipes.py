@@ -265,18 +265,18 @@ food = {
                 ]
             },
             18: {
-                    "name": "Guacamole",
-                    "main-ingredients": [
-                      "palta",
-                      "pomate",
-                      "cebolla morada",
-                    ],
-                    "secondary-ingredients": [
-                      "limon",
-                      "sal",
-                    ],
-                    "step-by-step": [
-                      ""
-                    ]
+                 "name": "Guacamole",
+                 "main-ingredients": [
+                    "palta",
+                    "tomate",
+                    "cebolla morada",
+                 ],
+                 "secondary-ingredients": [
+                   "limon",
+                   "sal",
+                 ],
+                 "step-by-step": [
+                   ""
+                 ]
                   },
         }
