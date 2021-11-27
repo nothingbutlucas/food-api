@@ -1,31 +1,3 @@
-'''
-                "es": {
-                    "name": "Sopa-de-arvejas",
-                    "main-ingredients": [
-                      "cebolla",
-                      "arveja"
-                    ],
-                    "secondary-ingredients": [
-                      "papa"
-                    ],
-                    "step-by-step": [
-                      ""
-                    ]
-                },
-                "en": {
-                    "name": "Pea-soup",
-                    "main-ingredients": [
-                      "onion",
-                      "pean"
-                    ],
-                    "secondary-ingredients": [
-                      "potato"
-                    ],
-                    "step-by-step": [
-                      ""
-                    ]
-                }'''
-
 food = {
             0: {
                     "name": "Sopa-de-arvejas",
@@ -292,4 +264,19 @@ food = {
                   ""
                 ]
             },
+            18: {
+                    "name": "Guacamole",
+                    "main-ingredients": [
+                      "Palta",
+                      "Tomate",
+                      "Cebolla morada",
+                    ],
+                    "secondary-ingredients": [
+                      "Limón",
+                      "Sal",
+                    ],
+                    "step-by-step": [
+                      ""
+                    ]
+                  },
         }
