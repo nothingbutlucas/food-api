@@ -127,7 +127,7 @@ def get_main_ingredient(ingredient_: str = Path(None, description="Capture main 
         return {"Data": "Error 4🍊4 - Main Ingredient not Found :("}
 
 
-@app.get("/foods/secondary-ingredients/{ingredient_}", tags=["Ingredients"])
+@app.get("/foods/secondary-ingredients/{name}", tags=["Ingredients"])
 def get_secondary_ingredient(ingredient_: str = Path(None, description="Capture secondary ingredients")):
     foods = list()
     for item_id in food:
@@ -140,3 +140,12 @@ def get_secondary_ingredient(ingredient_: str = Path(None, description="Capture 
         return foods
     else:
         return {"Data": "Error 4🍊4 - Secondary Ingredient not Found :("}
+
+
+@app.get("/foods/step-by-step/{name}", tags=["Recipes"])
+def get_food_step_by_step(name: str = Path(None, description="The name of the food u like to see the step by step")):
+    for item_id in food:
+        if food.get(item_id).get("name") == name:
+            return food[item_id].get("step-by-step")
+
+    return {"Data": "Error 4🍅4 - Food not Found :("}
