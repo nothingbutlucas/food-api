@@ -49,7 +49,7 @@ app = FastAPI(
     title="Food API",
     description=description,
     # Version X.Y.Z -> X= Versión mayor, versión principal | Y= Versión menor, nuevas funcionalidades | Z= Revisión por fallos y detalles
-    version="0.1.6",
+    version="0.2.0",
     contact={
         "name": "lucasdev & cosoycosas",
         "url": "https://bio.link/devycoso",
