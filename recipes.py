@@ -77,7 +77,7 @@ food = {
             5: {
                 "name": "Bombas-de-calabaza",
                 "main-ingredients": [
-                  "queso",
+                  "queso vegetal",
                   "calabaza",
                   "pan rallado"
                 ],
@@ -125,7 +125,7 @@ food = {
                 ],
                 "secondary-ingredients": [
                   "aceituna",
-                  "queso",
+                  "queso vegetal",
                 ],
                 "step-by-step": [
                   ""
@@ -152,7 +152,7 @@ food = {
                   "cebolla"
                 ],
                 "secondary-ingredients": [
-                  "queso",
+                  "queso vegetal",
                 ],
                 "step-by-step": [
                   ""
@@ -192,7 +192,7 @@ food = {
                 "main-ingredients": [
                   "papa",
                   "pan rallado",
-                  "queso"
+                  "queso vegetal"
                 ],
                 "secondary-ingredients": [],
                 "step-by-step": [
@@ -263,10 +263,10 @@ food = {
                 "step-by-step": [
                   ""
                 ]
-            },
+        },
             18: {
-                    "name": "Guacamole",
-                    "main-ingredients": [
+                "name": "Guacamole",
+                "main-ingredients": [
                       "palta",
                       "tomate",
                       "cebolla morada",
