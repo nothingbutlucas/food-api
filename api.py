@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Path, Query, HTTPException, status
+from fastapi import FastAPI, Path, Query, HTTPException, status, Response
 from typing import Optional, List
 from pydantic import BaseModel
 from recipes import *
@@ -6,15 +6,18 @@ from recipes import *
 tags_metadata = [
     {
         "name": "Foods | Comidas",
-        "description": "Here u can obtain the complete foods using the ID or the Name | Con este metodo podes obtener las recetas usando el ID o el nombre de la comida",
+        "description": "Here u can obtain the complete foods using the ID or the Name | "
+                       "Con este metodo podes obtener las recetas usando el ID o el nombre de la comida",
     },
     {
         "name": "Ingredients | Ingredientes",
-        "description": "Obtain all the foods you can do with the ingredient | Con este metodo podes obtener todas las comidas que podes hacer con determinado ingrediente"
+        "description": "Obtain all the foods you can do with the ingredient | "
+                       "Con este metodo podes obtener todas las comidas que podes hacer con determinado ingrediente"
     },
     {
         "name": "Recipes | Recetas",
-        "description": "Obtain all the recipes available in the API | Con este metodo podes ver todas las recetas disponibles en la API"
+        "description": "Obtain all the recipes available in the API | "
+                       "Con este metodo podes ver todas las recetas disponibles en la API"
     }
 ]
 
@@ -48,8 +51,9 @@ A nosotros también, por eso desarrollamos esta API con recetas de comidas basad
 app = FastAPI(
     title="Food API",
     description=description,
-    # Version X.Y.Z -> X= Versión mayor, versión principal | Y= Versión menor, nuevas funcionalidades | Z= Revisión por fallos y detalles
-    version="0.2.0",
+    # Version X.Y.Z -> X= Versión mayor, versión principal | Y= Versión menor, nuevas funcionalidades | Z= Revisión
+    # por fallos y detalles
+    version="0.2.1",
     contact={
         "name": "lucasdev & cosoycosas",
         "url": "https://bio.link/devycoso",
@@ -143,9 +147,8 @@ def get_secondary_ingredient(ingredient_: str = Path(None, description="Capture 
 
 
 @app.get("/foods/step-by-step/{name}", tags=["Recipes"])
-def get_food_step_by_step(name: str = Path(None, description="The name of the food u like to see the step by step")):
+def get_food_step_by_step(name: str, response: Response):
     for item_id in food:
         if food.get(item_id).get("name") == name:
             return food[item_id].get("step-by-step")
-
-    return {"Data": "Error 4🍅4 - Food not Found :("}
+    response.status_code = status.HTTP_404_NOT_FOUND

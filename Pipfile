@@ -8,6 +8,7 @@ uvicorn = "*"
 pydantic = "*"
 fastapi = "*"
 heroku = "*"
+media = "*"
 
 [dev-packages]
 
